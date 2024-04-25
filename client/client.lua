@@ -43,6 +43,14 @@ RegisterNetEvent('redux_textui:ShowUI', function(label, keybind)
     end
 end)
 
+RegisterNetEvent('redux_textui:HideUI', function()
+    for _, data in ipairs(ids) do
+       
+        SendReactMessage('hideTextUI', { id = data.id })
+    end
+    ids = {} 
+end)
+
 -- Function to hide all shown text UI
 function Hide()
     for _, data in ipairs(ids) do
