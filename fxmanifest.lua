@@ -15,3 +15,8 @@ files {
 
 client_script "client/**/*"
 
+exports {
+	"Show",
+	"Hide"
+}
+
