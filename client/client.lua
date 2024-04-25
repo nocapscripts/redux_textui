@@ -13,8 +13,8 @@ local function SendReactMessage(action, data)
 end
 
 -- Function to show text UI
-local function Show(id, label, keybind)
-    local i = id or GenId()
+local function Show(label, keybind)
+    local i = GenId()
 
     if not ids[i] then
         -- Show text UI if the ID is not already shown
