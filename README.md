@@ -1,3 +1,10 @@
+# Redux Remake
+
+Added smoother usage with events and exports.
+
+
+
+
 # 5️⃣ five-textui
 FiveM **Standalone** text ui inspired to **NoPixel 4.0** server written in [React](https://react.dev/) using [Project Sloth's React Boilerplate](https://github.com/project-error/fivem-react-boilerplate-lua/tree/master).
 
